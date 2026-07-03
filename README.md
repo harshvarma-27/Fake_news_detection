@@ -47,6 +47,92 @@ Here are the **accuracy scores** of each model on the test dataset (4,000 sample
 | Decision Tree             | 49.80%   |
 | Support Vector Machine    | 49.98%   |
 | Multinomial Naive Bayes   | 50.85%   |
+---
 
+## ⚙️ Machine Learning Pipeline
+
+```text
+News Dataset
+     │
+     ▼
+Text Cleaning
+     │
+     ▼
+Tokenization
+     │
+     ▼
+TF-IDF Vectorization
+     │
+     ▼
+Model Training
+     │
+     ▼
+Prediction
+     │
+     ▼
+Fake / Real Classification
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Programming Language
+- Python
+
+### Libraries
+- Pandas
+- NumPy
+- Scikit-learn
+- NLTK
+- Matplotlib
+- Seaborn
+
+---
+
+## 📂 Project Structure
+
+```text
+Fake_news_detection/
+│
+├── fake_news_dataset.csv
+├── fake_news_detection.ipynb
+├── model.pkl
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped in understanding:
+
+- Natural Language Processing (NLP)
+- Text Classification
+- TF-IDF Vectorization
+- Machine Learning Model Comparison
+- Feature Engineering
+- Classification Metrics
+- Confusion Matrix Analysis
+
+---
+
+## 🔮 Future Enhancements
+
+- BERT-based fake news detection
+- Transformer models
+- Real-time news verification
+- Browser extension integration
+- Multi-language support
+- Explainable AI predictions
+
+---
+
+## 👨‍💻 Author
+
+Harsha Vardhan Varma
+
+GitHub: https://github.com/harshvarma-27
 ### 🧾 Example: Confusion Matrix & Classification Report (MultinomialNB)
 
